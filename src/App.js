@@ -2,15 +2,15 @@ import { useRef } from "react";
 import "./App.css";
 
 const places = [
-  { position: [100, 100] },
-  { position: [250, 100] },
-  { position: [400, 100] },
-  { position: [100, 250] },
-  { position: [250, 250] },
-  { position: [400, 250] },
-  { position: [100, 400] },
-  { position: [250, 400] },
-  { position: [400, 400] },
+  { position: [100, 100], rotation: Math.random() * 360 },
+  { position: [250, 100], rotation: Math.random() * 360 },
+  { position: [400, 100], rotation: Math.random() * 360 },
+  { position: [100, 250], rotation: Math.random() * 360 },
+  { position: [250, 250], rotation: Math.random() * 360 },
+  { position: [400, 250], rotation: Math.random() * 360 },
+  { position: [100, 400], rotation: Math.random() * 360 },
+  { position: [250, 400], rotation: Math.random() * 360 },
+  { position: [400, 400], rotation: Math.random() * 360 },
 ];
 
 const templatePosition = { position: [1000, 100] }
@@ -43,13 +43,13 @@ export default function App() {
       const transform = `translate3d(${targetX}px, ${
         targetY
       }px, 0)`;
-      const transition = `transform 100ms linear`;
+      const transition = `transform 300ms linear`;
       element.style.transform = transform;
       element.style.transition = transition;
       element.style.opacity = 1;
       endDrag();
     } else {
-      const transform = `translate3d(${positionX}px, ${positionY}px, 0)`;
+      const transform = `translate3d(${positionX}px, ${positionY}px, 0) rotate(${places[index].rotation}deg)`;
       element.style.transform = transform;
     }
   };
@@ -96,7 +96,7 @@ export default function App() {
           className={`piece p${index}`}
           style={{
             position: "absolute",
-            transform: `translate3d(${piece.position[0]}px, ${piece.position[1]}px, 0)`
+            transform: `translate3d(${piece.position[0]}px, ${piece.position[1]}px, 0)  rotate(${places[index].rotation}deg)`
           }}
         >
         </div>
