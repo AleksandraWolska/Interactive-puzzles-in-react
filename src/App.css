@@ -37,8 +37,6 @@
   }
 }
 
-
-
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -52,23 +50,17 @@ div {
 .template {
   height: 300px;
   width: 300px;
-  background-size: cover;  
-  background-image: url('./pieces/template.jpg');
+  background-size: cover;
+  background-image: url("./pieces/template.jpg");
 
-  box-shadow: 5px 5px 5px rgba(0,0,0,.4);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
-
-
-
 
 .piece {
   height: 150px;
   width: 150px;
   background-size: cover;
-  box-shadow: 5px 5px 5px rgba(0,0,0,.4);
-
-
-
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .piece-helper {
@@ -77,39 +69,36 @@ div {
   background-size: cover;
 }
 
-
 .p0 {
-  background-image: url('./pieces/p0.jpg');
-  
+  background-image: url("./pieces/p0.jpg");
 }
 
 .p1 {
-  background-image: url('./pieces/p1.jpg');
+  background-image: url("./pieces/p1.jpg");
 }
 
 .p2 {
-  background-image: url('./pieces/p2.jpg');
+  background-image: url("./pieces/p2.jpg");
 }
 
 .p3 {
-  background-image: url('./pieces/p3.jpg');
+  background-image: url("./pieces/p3.jpg");
 }
 .p4 {
-  background-image: url('./pieces/p4.jpg');
+  background-image: url("./pieces/p4.jpg");
 }
 
 .p5 {
-  background-image: url('./pieces/p5.jpg');
+  background-image: url("./pieces/p5.jpg");
 }
 
 .p6 {
-  background-image: url('./pieces/p6.jpg');
+  background-image: url("./pieces/p6.jpg");
 }
 
 .p7 {
-  background-image: url('./pieces/p7.jpg');
+  background-image: url("./pieces/p7.jpg");
 }
 .p8 {
-  background-image: url('./pieces/p8.jpg');
+  background-image: url("./pieces/p8.jpg");
 }
-
