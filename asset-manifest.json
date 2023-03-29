@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/puzzles/static/css/main.ca85050a.css",
+    "main.js": "/puzzles/static/js/main.85d26d0d.js",
+    "static/js/845.05a6366d.chunk.js": "/puzzles/static/js/845.05a6366d.chunk.js",
+    "static/js/787.bb86e386.chunk.js": "/puzzles/static/js/787.bb86e386.chunk.js",
+    "static/media/template.jpg": "/puzzles/static/media/template.0bb55c1e9410ad6226bc.jpg",
+    "static/media/success.mp3": "/puzzles/static/media/success.1da4d0abecd261309311.mp3",
+    "static/media/failure.mp3": "/puzzles/static/media/failure.58020d5f703760603011.mp3",
+    "static/media/p4.jpg": "/puzzles/static/media/p4.e5e80a1542b435a3647a.jpg",
+    "static/media/p1.jpg": "/puzzles/static/media/p1.7dd3021a1446037415e3.jpg",
+    "static/media/p5.jpg": "/puzzles/static/media/p5.1105f0508ddc35437d0f.jpg",
+    "static/media/p2.jpg": "/puzzles/static/media/p2.deaf67211da8f43bfda5.jpg",
+    "static/media/p3.jpg": "/puzzles/static/media/p3.9468f94c8be81ca0da39.jpg",
+    "static/media/p6.jpg": "/puzzles/static/media/p6.dd4f048f706f242d34f8.jpg",
+    "static/media/p0.jpg": "/puzzles/static/media/p0.161a756017eb8e3afce4.jpg",
+    "static/media/p7.jpg": "/puzzles/static/media/p7.8f1ae462ec21073cb905.jpg",
+    "static/media/p8.jpg": "/puzzles/static/media/p8.4d8b2093feddc752c593.jpg",
+    "index.html": "/puzzles/index.html",
+    "main.ca85050a.css.map": "/puzzles/static/css/main.ca85050a.css.map",
+    "main.85d26d0d.js.map": "/puzzles/static/js/main.85d26d0d.js.map",
+    "845.05a6366d.chunk.js.map": "/puzzles/static/js/845.05a6366d.chunk.js.map",
+    "787.bb86e386.chunk.js.map": "/puzzles/static/js/787.bb86e386.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca85050a.css",
+    "static/js/main.85d26d0d.js"
+  ]
+}
